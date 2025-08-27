@@ -8,9 +8,15 @@ Munsayac, Angela Ysabhelle C.
 2ECE-B
 
 **Alphabet Soup Numbers**
+
+ALPHABET SOUP PROBLEM: Create a function that takes a string and returns a string with its letters
+in alphabetical order.
+Example: alphabet_soup(“hello”) ➞ ehllo
+alphabet_soup(“hacker”) ➞ acehkr
+
 Steps in Coding the Soup Numbers
-#define what to use in the program     
-#for chronological order of the letters 
+1. Define a fucntion on what to use in the program     
+2. for chronological order of the letters 
 #s string, and str.lower is for the lowercase
 #combine the strings in one
 #output of the program
