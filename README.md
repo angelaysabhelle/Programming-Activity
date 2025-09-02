@@ -1,7 +1,50 @@
+# Programming Activity 
+Notebooks during my ECE2112 class 
+
+Assignment 2
+Munsayac, Angela Ysabhelle C. 
+2ECE-B
+
+**Programming Assignment 2 
+Numerical Python**
+
+**NORMALIZATION PROBLEM:** Normalization is one of the most basic preprocessing techniques in data analytics. This involves centering and scaling process. Centering means subtracting the data from the mean and scaling means dividing with its standard deviation.
+
+In this program, I am tasked to create a random 5x5 ndarray and that array I will store it to variable X. 
+1.	First let us import numpy as np. Let x will be a storage for the random 5X5 ndarray.
+X = np.random.rand(5,5)
+2.	Let’s put the formula to get the mean and standard deviation of variable x.
+For the mean:
+			mean_ x = x.mean()
+			std_x = x.std()
+ Formula to get the mean or z-score normalization
+			x_normalized = (x - mean_x) / std_x 
+3.	The output and printing the result of the 5X5 array
+print("\nNormalized x:\n", x_normalized)  
 
 
+**DIVISIBLE BY 3 PROBLEM:** Create the following 10 x 10 ndarray.
+𝐴 =[1 4 ⋯ 81 100
+⋮ ⋮ ⋱ ⋮ ⋮
+⋮ ⋮ ⋱ ⋮ ⋮
+⋮ ⋮ ⋱ ⋮ ⋮
+8281 8464 ⋯ 9801 10000]
+which are the squares of the first 100 positive integers.
+From this ndarray, determine all the elements that are divisible by 3. Save the result as div_by_3.npy
+In this program, I am tasked to create an array that contains the squares of the first 100 positive integers. Then I will check which of those numbers are divisible by 3.
 
-
+ 1. First, I import numpy as np:
+import numpy as np
+2.  I generated the array using a list
+ [(i + 1) ** 2 for i in range(100)] and reshaped it into a 10x10 matrix with 
+reshape(10, 10)
+3. After creating the array, I checked which numbers in the array are divisible by 3 using the condition: 
+	a % 3 == 0
+    Storing array new numbers will be called dibv_by_3
+4. Next, is that in this line I counted the array that is divisible by 3 and sum it up.
+	np.sum(a % 3 == 0
+	div_by_3.sum()
+5. Lastly,  , I printed the original 10x10 array, the numbers divisible by 3, how many such numbers there are, and the total sum of those numbers. This NumPy function with arrays, makes the task much faster and easier. 
 
 
 
