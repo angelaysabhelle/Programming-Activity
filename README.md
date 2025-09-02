@@ -18,9 +18,11 @@ For the mean:
 			mean_ x = x.mean()
 			std_x = x.std()
  Formula to get the mean or z-score normalization
-			x_normalized = (x - mean_x) / std_x 
-3.	The output and printing the result of the 5X5 array
-print("\nNormalized x:\n", x_normalized)  
+			x_normalized = (x - mean_x) / std_x
+3. Save the normalized ndarray to a file
+			np.save("x_normalized.npy", x_normalized)  
+4.	The output and printing the result of the 5X5 array
+			print("\nNormalized x:\n", x_normalized)  
 
 
 **DIVISIBLE BY 3 PROBLEM:** Create the following 10 x 10 ndarray.
